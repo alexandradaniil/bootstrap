@@ -80,11 +80,17 @@ runbook disagree, **trust this runbook** (it may be newer).
 
 - **Infrastructure complete:** four repos + project memory; push-to-deploy pipeline; custom domain
   **live with TLS**.
-- The site is the **bilingual placeholder** ("coming soon": `/el/` Greek, `/en/` English, `/` language
-  splash). It is **deliberately not indexed** — `website/site/robots.txt` is `Disallow: /`.
-- **Next:** build the real content and design with the owner, then **go live** (see the launch
-  checklist in `website/CLAUDE.md`: flip `robots.txt` to permissive, `workers_dev: false`, verify on
-  the live domain).
+- **Bilingual skeleton is live** (unindexed): **Greek at the root, English under `/en/`**, Bio is the
+  front page. 8 sections — Bio, Kyra Ithasimigi, Dance Improvisation, CEM Method, Educational
+  Programmes, Documentaries / Video Dance, Academic Research, Contact. `/bio` and `/en/bio` 301 to the
+  Bio root. **CEM Method** renders via the `.cem` component (vivid letters `#ffff00/#29b95c/#ff7474` on
+  a dark-grey `#333` chip). Section pages are "coming soon" stubs awaiting real content.
+- **Still not indexed** — `website/site/robots.txt` is `Disallow: /`.
+- **Pre-launch workflow (owner's call):** while unindexed with no visitors, commit content/structure
+  **straight to `main`** (no drafts). **At go-live, switch back to draft-then-publish** (§11, since
+  `main` is then public) and run the launch checklist in `website/CLAUDE.md` (robots → permissive,
+  `workers_dev: false`, verify live).
+- **Next:** fill in the real page content with the owner, gradually.
 
 ## Where things are
 
