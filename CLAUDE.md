@@ -16,6 +16,8 @@ rationale lives in the project primer, held by the operator; this file is the op
 - **Owner — Alexandra Daniil.** Preferred language is **Greek** — **all owner-facing text and
   conversation is in Greek.** She also reads English (moderate–advanced); use it only where it is
   clearly better for a specific thing. Her plain-language guide is **`getting-started.el.md`** here.
+  - **When you address Alexandra directly, begin that line with her name in capitals —
+    `ΑΛΕΞΑΝΔΡΑ,` —** so she can tell what is spoken *to her* apart from the rest of the output.
 - **Operator — Thanos** set the project up and then stepped away. Developer-facing material (this file,
   the technical logs, code comments) is in **English**.
 
@@ -91,7 +93,8 @@ runbook disagree, **trust this runbook** (it may be newer).
   **straight to `main`** (no drafts). **At go-live, switch back to draft-then-publish** (§11, since
   `main` is then public) and run the launch checklist in `website/CLAUDE.md` (robots → permissive,
   `workers_dev: false`, verify live).
-- **Next:** fill in the real page content with the owner, gradually.
+- **Next:** fill in real page content with the owner, gradually — **starting with the Bio (root)
+  page: Alexandra supplies its text, which then fully replaces the current placeholder content.**
 
 ## Where things are
 
