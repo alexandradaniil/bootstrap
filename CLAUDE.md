@@ -83,8 +83,9 @@ runbook disagree, **trust this runbook** (it may be newer).
 - **Bilingual skeleton is live** (unindexed): **Greek at the root, English under `/en/`**, Bio is the
   front page. 8 sections — Bio, Kyra Ithasimigi, Dance Improvisation, CEM Method, Educational
   Programmes, Documentaries / Video Dance, Academic Research, Contact. `/bio` and `/en/bio` 301 to the
-  Bio root. **CEM Method** renders via the `.cem` component (warm gold / green / orange letters
-  `#a87c00 / #34a152 / #d8602a` on a near-white `#f6f6f6` chip). Section pages are "coming soon" stubs awaiting real content.
+  Bio root. **CEM Method** renders via the `.cem` component (light mode: warm gold / green / orange letters
+  `#a87c00 / #34a152 / #d8602a` on a near-white `#f6f6f6` chip; dark mode via `prefers-color-scheme`:
+  vivid `#ffff00 / #29b95c / #ff7474` on a `#333` chip). Section pages are "coming soon" stubs awaiting real content.
 - **Still not indexed** — `website/site/robots.txt` is `Disallow: /`.
 - **Pre-launch workflow (owner's call):** while unindexed with no visitors, commit content/structure
   **straight to `main`** (no drafts). **At go-live, switch back to draft-then-publish** (§11, since
