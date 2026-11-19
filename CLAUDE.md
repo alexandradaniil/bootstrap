@@ -82,19 +82,23 @@ runbook disagree, **trust this runbook** (it may be newer).
 
 - **Infrastructure complete:** four repos + project memory; push-to-deploy pipeline; custom domain
   **live with TLS**.
-- **Bilingual skeleton is live** (unindexed): **Greek at the root, English under `/en/`**, Bio is the
-  front page. 8 sections — Bio, Kyra Ithasimigi, Dance Improvisation, CEM Method, Educational
-  Programmes, Documentaries / Video Dance, Academic Research, Contact. `/bio` and `/en/bio` 301 to the
-  Bio root. **CEM Method** renders via the `.cem` component (light mode: warm gold / green / orange letters
+- **LAUNCHED (2026-11-19) — the site is public and indexable.** Bilingual: **Greek at the root,
+  English under `/en/`**, Bio is the front page. 8 sections — Bio, Kyra Ithasimigi, Dance Improvisation,
+  CEM Method, Educational Programmes, Documentaries / Video Dance, Academic Research, Contact. `/bio`
+  and `/en/bio` 301 to the Bio root. All sections carry real content (filled with the owner). **CEM
+  Method** renders via the `.cem` component (light mode: warm gold / green / orange letters
   `#a87c00 / #34a152 / #d8602a` on a near-white `#f6f6f6` chip; dark mode via `prefers-color-scheme`:
-  vivid `#ffff00 / #29b95c / #ff7474` on a `#333` chip). Section pages are "coming soon" stubs awaiting real content.
-- **Still not indexed** — `website/site/robots.txt` is `Disallow: /`.
-- **Pre-launch workflow (owner's call):** while unindexed with no visitors, commit content/structure
-  **straight to `main`** (no drafts). **At go-live, switch back to draft-then-publish** (§11, since
-  `main` is then public) and run the launch checklist in `website/CLAUDE.md` (robots → permissive,
-  `workers_dev: false`, verify live).
-- **Next:** fill in real page content with the owner, gradually — **starting with the Bio (root)
-  page: Alexandra supplies its text, which then fully replaces the current placeholder content.**
+  vivid `#ffff00 / #29b95c / #ff7474` on a `#333` chip).
+- **Header:** nav labels in self-hosted **Comfortaa Medium**; wordmark **logo** (option 06, Roboto
+  Condensed, slender-S separator) in the brand slot — theme-aware `<picture>` (`#el`/`#en`), files in
+  `website/site/logos/`. Three-brushstroke CEM **favicon** in `website/site/favicon/`. Light,
+  theme-aware bar.
+- **Indexed** — `website/site/robots.txt` is permissive (`Allow: /` + `Sitemap:`), `workers_dev: false`
+  (the `*.workers.dev` host returns 404), custom-domain routes in `wrangler.jsonc`.
+- **Post-launch workflow:** `main` is now public. **Code / design / structure → a draft (PR) the owner
+  publishes;** content edits (text, image/video swaps) may still merge **straight to `main`** (primer §11).
+- **Next:** ongoing content/refinements with the owner. Phase-2 logo is done; remaining Thanos handoff
+  items (if any) are in `documentation/operations.md` (2026-11-19 entries).
 
 ## Where things are
 
