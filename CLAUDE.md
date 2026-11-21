@@ -88,7 +88,7 @@ runbook disagree, **trust this runbook** (it may be newer).
   and `/en/bio` 301 to the Bio root. All sections carry real content (filled with the owner). **CEM
   Method** renders via the `.cem` component (light mode: warm gold / green / orange letters
   `#a87c00 / #34a152 / #d8602a` on a near-white `#f6f6f6` chip; dark mode via `prefers-color-scheme`:
-  vivid `#ffff00 / #29b95c / #ff7474` on a `#333` chip).
+  vivid `#ffff00 / #29b95c / #ff7474` on a `#333` chip). **Accent** colour is berry magenta `#A80068` (light) / orchid magenta `#E78AFF` (dark) via `--color-accent`; menu items have no underline (current page keeps the accent colour).
 - **Typography & layout (Thanos handoff, 2026-11-20):** self-hosted **Comfortaa** everywhere —
   **350** prose/lists, **400** menu, **650** headings/summary/strong (`website/site/fonts/comfortaa-*.woff2`).
   Shared **`.reading`** column on every page (≤42rem, 1/3–2/3 offset desktop; divider-aligned ≤1024px).
